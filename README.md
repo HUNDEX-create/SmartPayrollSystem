@@ -149,6 +149,61 @@ erDiagram
     STAFF ||--o{ PAYROLL : receives
 ```
 
+#  Database Tables
+
+| Table Name | Description |
+|---|---|
+| users | Stores system login accounts and roles |
+| staff | Stores employee information |
+| attendance | Stores employee attendance records |
+| payroll | Stores payroll and salary information |
+
+---
+
+##  Users Table
+
+| Column | Type | Description |
+|---|---|---|
+| user_id | INT | Primary Key |
+| username | VARCHAR | Login username |
+| password | VARCHAR | User password |
+| role | VARCHAR | Admin or HR role |
+
+---
+
+##  Staff Table
+
+| Column | Type | Description |
+|---|---|---|
+| staff_id | INT | Primary Key |
+| name | VARCHAR | Employee name |
+| department | VARCHAR | Employee department |
+| salary_per_day | DOUBLE | Daily salary |
+
+---
+
+##  Attendance Table
+
+| Column | Type | Description |
+|---|---|---|
+| attendance_id | INT | Primary Key |
+| staff_id | INT | Foreign Key |
+| month | VARCHAR | Attendance month |
+| days_present | INT | Number of days attended |
+
+---
+
+##  Payroll Table
+
+| Column | Type | Description |
+|---|---|---|
+| payroll_id | INT | Primary Key |
+| staff_id | INT | Foreign Key |
+| month | VARCHAR | Payroll month |
+| total_salary | DOUBLE | Final salary |
+| bonus | DOUBLE | Additional bonus |
+| deduction | DOUBLE | Salary deduction |
+
 
 #  Installation & Execution
 
