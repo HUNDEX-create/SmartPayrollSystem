@@ -73,11 +73,10 @@ git push origin feature-name
 | Name | Role |
 |---|---|
 | Hundaol Begna | Project Lead |
-| Kedir Lemecha | Database Support |
-| Isaac Assefa | Backend Development |
+| Isaac Assefa | Database Support |
 | Gemmachu Fikadu | Documentation |
 | Ifa Silashi | Testing & Validation |
-| Gurmesa Borena | System Analysis |
+| Gurmesa Borena | System Analysis  |
 
 ---
 
