@@ -1,5 +1,10 @@
 #  Smart Staff Attendance & Payroll Management System
 
+![C++](https://img.shields.io/badge/C%2B%2B-Programming-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![OOP](https://img.shields.io/badge/OOP-Concept-green)
+![GitHub](https://img.shields.io/badge/GitHub-VersionControl-black)
+
 A professional C++ and MySQL-based payroll management system designed to automate employee attendance tracking, salary processing, and administrative staff management.
 
 ---
@@ -147,6 +152,43 @@ erDiagram
 
     STAFF ||--o{ ATTENDANCE : has
     STAFF ||--o{ PAYROLL : receives
+```
+
+# 🏗️ UML Class Diagram
+
+```mermaid
+classDiagram
+
+    class Auth {
+        -Connection* con
+        +login(username, password)
+        +createUser()
+    }
+
+    class Staff {
+        -Connection* con
+        +addStaff()
+        +viewStaff()
+        +searchStaff()
+        +updateStaff()
+        +deleteStaff()
+    }
+
+    class Attendance {
+        -Connection* con
+        +markAttendance()
+        +viewAttendance()
+        +lowAttendanceWarning()
+    }
+
+    class Payroll {
+        -Connection* con
+        +generatePayroll()
+    }
+
+    Auth --> Staff
+    Staff --> Attendance
+    Attendance --> Payroll
 ```
 
 #  Database Tables
