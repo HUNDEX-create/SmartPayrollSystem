@@ -1,10 +1,10 @@
-# 💼 Smart Staff Attendance & Payroll System
+#  Smart Staff Attendance & Payroll System
 
 A C++ and MySQL-based payroll management system that automates staff management, attendance tracking, and salary calculation.
 
 ---
 
-## 📌 Features
+##  Features
 
 - Add, update, delete staff
 - Mark attendance
@@ -17,7 +17,7 @@ A C++ and MySQL-based payroll management system that automates staff management,
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - C++
 - MySQL
