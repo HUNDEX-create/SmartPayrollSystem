@@ -109,6 +109,47 @@ Stores payroll information:
 
 ---
 
+# 🧩 Entity Relationship Diagram (ERD)
+
+```mermaid
+
+erDiagram
+
+    USERS {
+        int user_id PK
+        string username
+        string password
+        string role
+    }
+
+    STAFF {
+        int staff_id PK
+        string name
+        string department
+        double salary_per_day
+    }
+
+    ATTENDANCE {
+        int attendance_id PK
+        int staff_id FK
+        string month
+        int days_present
+    }
+
+    PAYROLL {
+        int payroll_id PK
+        int staff_id FK
+        string month
+        double total_salary
+        double bonus
+        double deduction
+    }
+
+    STAFF ||--o{ ATTENDANCE : has
+    STAFF ||--o{ PAYROLL : receives
+```
+
+
 #  Installation & Execution
 
 ## 1️ Clone Repository
