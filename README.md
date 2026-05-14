@@ -27,28 +27,28 @@ This project demonstrates real-world software engineering concepts including mod
 
 #  Key Features
 
-## 👨‍💼 Staff Management
+##  Staff Management
 - Add new staff
 - Update employee records
 - Delete staff
 - Search employees
 
-## 📅 Attendance Management
+##  Attendance Management
 - Record monthly attendance
 - View attendance reports
 - Low attendance warning system
 
-## 💰 Payroll Management
+##  Payroll Management
 - Automatic salary calculation
 - Bonus and deduction handling
 - Payroll report generation
 
-## 🔐 Authentication System
+##  Authentication System
 - Secure login system
 - Admin-controlled user creation
 - Role-based access concept
 
-## 🗄️ Database Integration
+##  Database Integration
 - MySQL relational database
 - Structured data storage
 - Foreign key relationships
@@ -114,7 +114,7 @@ Stores payroll information:
 
 ---
 
-# 🧩 Entity Relationship Diagram (ERD)
+#  Entity Relationship Diagram (ERD)
 
 ```mermaid
 
@@ -154,7 +154,7 @@ erDiagram
     STAFF ||--o{ PAYROLL : receives
 ```
 
-# 🏗️ UML Class Diagram
+#  UML Class Diagram
 
 ```mermaid
 classDiagram
@@ -327,7 +327,7 @@ This project helped us understand:
 
 ---
 
-# 📚 Academic Purpose
+#  Academic Purpose
 
 This project was developed for educational purposes to demonstrate practical implementation of database-driven software systems using C++ and MySQL.
 
