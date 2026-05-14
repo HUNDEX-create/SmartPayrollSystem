@@ -1,0 +1,5 @@
+payroll_app
+*.o
+*.out
+.vscode/
+
