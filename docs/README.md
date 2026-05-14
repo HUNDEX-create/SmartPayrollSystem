@@ -1,5 +1,5 @@
-#  Project Documentation
+# 📄 Project Documentation
 
- Full Project Report:
+📘 Full Project Report:
 
-[Download Final Report](docs/FOP-II FINAL REPORT.pdf)
+[Download Final Report](docs/final_report.pdf)
